@@ -8,5 +8,4 @@ module.exports = {
     const notesHandler = new NotesHandler(service);
     server.route(routes(notesHandler));
   },
-
 };
